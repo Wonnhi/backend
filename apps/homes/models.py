@@ -24,4 +24,5 @@ class Cosmetics(models.Model):
     
     class Meta:
         verbose_name = 'Services'
-        verbose_name_plural = 'Services"'
+        verbose_name_plural = 'Services'
+        

@@ -1,5 +1,5 @@
 from rest_framework.routers import DefaultRouter
-from apps..views import CosmeticsApiViewSet
+from apps.homes.views import CosmeticsApiViewSet
 
 router = DefaultRouter()
 

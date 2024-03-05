@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.categories',
     'apps.products',
     'apps.reviews',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -138,8 +139,8 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny'
     ],
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework.simplejwt.authentication.JWTAuthentication',
-        'rest_framework.simplejwt.authentication.SessionAuthentication',
-    )
+    # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     'rest_framework.simplejwt.authentication.JWTAuthentication',
+    #     'rest_framework.simplejwt.authentication.SessionAuthentication',
+    # )
 }
